@@ -11,6 +11,14 @@ El modelo de vista es un actor intermediario entre el modelo y la vista y cont
 
  ![Arquitectura](Arquitectura.png)
 
+Pantallas de la app ==> What Movie?
+
+ ![Login](login.png)
+ 
+  ![MovieDetails](MovieDetails.png)
+  
+   ![MovieList](MovieList.png)
+
 ## Autor
 
 * **Melvin Medina** - *Initial work* -

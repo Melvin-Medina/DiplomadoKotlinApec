@@ -13,7 +13,7 @@ El modelo de vista es un actor intermediario entre el modelo y la vista y cont
 
 Pantallas de la app ==> What Movie?
 
- ![Login](login.png)
+ ![Login](Login.png)
  
   ![MovieDetails](MovieDetails.png)
   

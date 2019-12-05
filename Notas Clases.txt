@@ -1,0 +1,46 @@
+Motion Layout -  para animaciones.
+
+Todas las operaciones largas deben hacerse en un hilo secundario.
+
+Tarea:
+aprender y buscar los 5 patrones mas utilzados en programacion android.
+
+hasta el 8.1 codelabs.
+
+Subir la aplicacion del fragment al git
+
+Comenzar con el proyecto final.
+
+
+Reglas del proyecto final:
+
+Desarrollar una aplicacion que se conecte a un servicio de su preferencia.
+API publico y gratis.
+api.themoviedb.org
+
+https://api.themoviedb.org/3/movie/upcoming?api_key=6e63c2317fbe963d76c3bdc2b785f6d1&page=1
+
+
+Requerimientos:
+* Debe mostrar algun tipo de listado. ej. Recycler view
+grid o lista-
+
+* UI es un factor importante.
+
+* Preferiblemente un proyecto que muestre imagenes de internet
+
+* Debe tener de 3 a 5 pantallas. Si tiene una lista debe tener un detalle
+
+* Debe poder compartirse con ws o gmail - boton de share
+
+* Usar una base de datos local -room si es pelicula almacenar las pelicula favorita, cuando no tenga internet poder ver las peliculas.
+
+* Usando view model, live data, preferible usar fragmento aunque no obligatorio.
+
+* Para consumir el servicio es retrofit.
+
+* detalle, lista, busqueda
+
+* Agregar Job Schedule - agendar tareas en el tiempo
+
+* Share preferences -  almacenamiento de menor duracion que la base de datos, donde se guarda configuracion del usuario

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgpng"
+        android:orientation="vertical"
+        android:padding="15dp">
+        <!--android:background="@drawable/bg_round"-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/buttonBajar"
+                android:layout_width="5dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="98dp"
+                android:layout_toStartOf="@+id/textViewNombre"
+                android:background="@drawable/arrow_down" />
+
+            <TextView
+                android:id="@+id/textViewNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="Ingles"
+                android:textColor="#BDC4C8"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/buttonMenu"
+                android:layout_width="1dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="99dp"
+                android:layout_toEndOf="@+id/textViewNombre"
+                android:background="@drawable/menu" />
+
+
+        </RelativeLayout><!--menu final-->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="320dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/music" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:padding="5dp"
+                android:text="Tick Tock"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kyle Pearce"
+                android:textAlignment="center"
+                android:textColor="#BDC4C8"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:padding="18dp">
+
+            <SeekBar
+                android:id="@+id/PlaySeekbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:progress="50"
+                android:progressTint="@color/colorBarra"
+                android:thumb="@color/colorBarra"
+                android:thumbTint="@color/colorBarra" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:padding="10dp">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/heart2"
+                android:id="@+id/favoriteButton"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="35dp"
+                android:alpha="0.5"
+                android:background="@drawable/backward"
+                android:rotation="180" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/play"
+                android:id="@+id/playButton"/>
+
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="25dp"
+                android:background="@drawable/forward" />
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="35dp"
+                android:alpha="0.5"
+                android:background="@drawable/remove" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp">
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="50dp"
+                android:alpha="0.5"
+                android:background="@drawable/computer" />
+
+            <Button
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="14dp"
+                android:alpha="0.5"
+                android:background="@drawable/share" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

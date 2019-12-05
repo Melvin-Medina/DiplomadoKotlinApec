@@ -1,0 +1,17 @@
+--Organizar los archivos en base a feature.
+---Anadir las dependencias que se van a utilizar
+Gson --  Retrofit
+logging interceptor - imprimir logs en el logcat
+
+--sincronizar el proyecto.
+
+---En el paquete data - crear un modelo
+
+---tomar el responde e ir a la pagina http://www.jsonschema2pojo.org/
+y usar gson
+--tomar la clase y pegarla en la clase kotlin, el IDE lo convertira automaticamente
+
+-se crea un paquete para el source
+--remote
+--se crea una clase kotlin que tendra una clase retrofit
+-necesita un convertidor de gson a json

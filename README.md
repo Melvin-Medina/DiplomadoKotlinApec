@@ -1,5 +1,7 @@
 # DiplomadoKotlinApec
 
+# Practica Final
+
 Este repositorio corresponde al diplomado tomado en la MEECYT en APEC Republica Dominicana. Sera una serie de archivos sueltos pero con orden logico propio del curso.
 
 
@@ -13,16 +15,29 @@ El modelo de vista es un actor intermediario entre el modelo y la vista y cont
 
 Pantallas de la app ==> What Movie?
 
- ![Login](Login.png)
- 
-  ![MovieDetails](MovieDetails.png)
-  
-   ![MovieList_1](MovieList_1.png)
-      ![MovieList_2](MovieList_2.png)
+![Login](Login.png)
+
+![MovieDetails](MovieDetails.png)
+
+![MovieList_1](MovieList_1.png)
+
+![MovieList_2](MovieList_2.png)
+      
+      
+## Tecnologias / Librerias usadas:
+Kotlin
+MVVM architectural pattern
+Paging library for Pagination
+RxJava
+Retrofit
+themoviedb.org REST API
 
 ## Autor
 
 * **Melvin Medina** - *Initial work* -
+
+## Creditos
+https://oxcoding.com/tutorials/android-movie-app-using-mvvm-paging-library-rxjava-and-retrofit/lessons/android-movie-app-overview-intro-mvvm-paging-library-rxjava-retrofit/
 
 ## Licencia
 

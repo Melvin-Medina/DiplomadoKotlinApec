@@ -17,7 +17,8 @@ Pantallas de la app ==> What Movie?
  
   ![MovieDetails](MovieDetails.png)
   
-   ![MovieList](MovieList.png)
+   ![MovieList_1](MovieList_1.png)
+      ![MovieList_2](MovieList_2.png)
 
 ## Autor
 

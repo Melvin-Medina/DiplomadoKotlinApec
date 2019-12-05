@@ -9,6 +9,7 @@ El modelo, al igual que en MVC, representa la capa de datos y/o lógica de nego
 La vista presenta la información y es activa, reaccionando a cambios en el modelo, de forma similar a un patrón MVC activo.
 El modelo de vista es un actor intermediario entre el modelo y la vista y contiene toda la lógica de presentación.
 
+https://github.com/Melvin-Medina/DiplomadoKotlinApec/edit/master/Arquitectura.png
 
 ## Autor
 
